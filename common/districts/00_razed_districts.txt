@@ -478,8 +478,8 @@ district_ringworld_razed_nexus = {
 				NOR = {
 					has_valid_civic = civic_machine_terminator
 					has_valid_civic = civic_machine_assimilator
+					has_valid_civic = civic_machine_servitor
 				}
-				NOT = { has_valid_civic = civic_machine_servitor }
 			}
 		}
 		modifier = {	
@@ -494,8 +494,8 @@ district_ringworld_razed_nexus = {
 				NOR = {
 					has_valid_civic = civic_machine_terminator
 					has_valid_civic = civic_machine_assimilator
+					has_valid_civic = civic_machine_servitor
 				}
-				NOT = { has_valid_civic = civic_machine_servitor }
 			}
 		}
 		text = job_razed_enforcer_machine_desc
