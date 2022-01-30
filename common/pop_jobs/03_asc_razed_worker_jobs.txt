@@ -178,9 +178,9 @@ razed_recycler = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_worker_job
 	possible = {
 		hidden_trigger = {exists = owner }
-		worker_job_check_trigger = yes
 		owner = { 
 			is_gestalt = no
 		}
@@ -430,7 +430,7 @@ razed_enforcer = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { has_non_swapped_tradition = tr_domination_judgment_corps }
+			owner = { has_active_tradition = tr_domination_judgment_corps }
 		}
 		modifier = {
 			planet_crime_add = -5
@@ -546,9 +546,9 @@ razed_constructor = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_worker_job
 	possible = {
 		hidden_trigger = {exists = owner }
-		worker_job_check_trigger = yes
 		owner = { 
 			is_gestalt = no
 		}

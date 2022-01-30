@@ -126,7 +126,7 @@ district_ringworld_eco_housing = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { has_non_swapped_tradition = tr_prosperity_public_works }
+			owner = { has_active_tradition = tr_prosperity_public_works }
 		}
 		modifier = {
 			planet_housing_add = 5
@@ -136,7 +136,7 @@ district_ringworld_eco_housing = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { has_swapped_tradition = tr_prosperity_extended_hives }
+			owner = { has_active_tradition = tr_prosperity_extended_hives }
 		}
 		modifier = {
 			planet_housing_add = 5
@@ -146,7 +146,7 @@ district_ringworld_eco_housing = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { has_swapped_tradition = tr_prosperity_optimized_nexus }
+			owner = { has_active_tradition = tr_prosperity_optimized_nexus }
 		}
 		modifier = {
 			planet_housing_add = 5

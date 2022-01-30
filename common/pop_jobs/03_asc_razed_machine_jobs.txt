@@ -178,9 +178,9 @@ razed_recycler_machine = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_worker_job
 	possible = {
 		hidden_trigger = {exists = owner }
-		worker_job_check_trigger = yes
 		owner = {
 			is_gestalt = yes
 		}
@@ -709,9 +709,9 @@ razed_constructor_machine = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_worker_job
 	possible = {
 		hidden_trigger = {exists = owner }
-		worker_job_check_trigger = yes
 		owner = { 
 			is_gestalt = yes
 		}
